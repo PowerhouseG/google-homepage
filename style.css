@@ -1,0 +1,121 @@
+.top-right{
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, sans-serif;
+    line-height: 24px;
+
+    
+}
+
+.top-right-textbox{
+    display: flex;
+
+}
+.top-right-iconbox{
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;  
+    height: 30px;
+    width: 30px;
+    background-position: -132px -38px;
+    display: flex;
+    margin: 0px -6px 0px -6px;
+}
+#login{
+    margin-left:0;
+    padding-left: 12px;
+padding-right: 12px;   
+color: white; 
+text-align: center;
+text-decoration: none;
+}
+#login:hover{
+    opacity: .85;
+    text-decoration: underline;
+}
+.top-right-buttonbox{
+    display: flex;
+    align-content: center;
+    border: #4285f4;
+    background: #4285f4;
+    border-radius: 2px;
+    margin-left: 11px;
+    height: 30px;
+    
+   
+    align-content: center;
+}
+.top-right-element{
+    align-content: center;
+    margin-left: 11px;
+    margin-top: 2px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+
+}
+.top-right-element:hover{
+    opacity: .85;
+    text-decoration: underline;
+}
+
+
+#main{
+
+    height: auto;
+    padding-top:10%;
+    padding-bottom: 10%;
+    
+}
+.google-logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#search-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+#input-box{
+    width: 50%;
+}
+.form-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+footer{
+  position: fixed;
+  bottom:2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+.bottom-link{
+    color:#5f6368;
+    padding-left: 27px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.bottom-left{
+  width: 50%;
+
+}
+
+.bottom-right{
+    width: 35%;
+
+    
+}
