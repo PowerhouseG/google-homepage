@@ -19,6 +19,7 @@
     background-position: -132px -38px;
     display: flex;
     margin: 0px -6px 0px -6px;
+
 }
 #login{
     margin-left:0;
@@ -40,7 +41,6 @@ text-decoration: none;
     border-radius: 2px;
     margin-left: 11px;
     height: 30px;
-    
    
     align-content: center;
 }
@@ -61,35 +61,47 @@ text-decoration: none;
 
 #main{
 
-    height: auto;
-    padding-top:10%;
-    padding-bottom: 10%;
+    height: 15em;
+    padding-top:5%;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-left: 25%;
 }
 .google-logo{
     display: flex;
     justify-content: center;
-    align-content: center;
+ 
 }
 #search-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+     display: flex;
+     flex-direction: row;
+   
+border-radius: 24px;
+border-width: 1px;
+border-color: black;
+    border-style: solid;
 }
 #input-box{
-    width: 50%;
+    width: 90%;
+    /*! margin: 0 0 0 5%; */
+    border: none;
 }
 .form-buttons{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 0 0 5%;
 }
 .search-form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
+    height: 6em;
 }
 footer{
   position: fixed;
@@ -100,6 +112,11 @@ footer{
   width: 100%;
 
 
+}
+.region{
+    position: fixed;
+    bottom:25px;
+    left: 35px;
 }
 .bottom-link{
     color:#5f6368;
@@ -118,4 +135,14 @@ footer{
     width: 35%;
 
     
+}
+
+.lense{
+    height:20px;
+    width: 20px;
+    margin-top: 2px;
+}
+.keyboard{
+    height:20px;
+    width: 20px;
 }
